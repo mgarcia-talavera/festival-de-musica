@@ -71,3 +71,16 @@ h2 {
   } 
 }
 
+div.item {
+
+  p {
+    line-height: 10px;
+  }
+
+  @media (max-width: $mqMinWidth) {
+    p {
+      line-height: 20px;
+    }
+  }
+}
+

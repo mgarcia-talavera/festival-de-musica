@@ -3,10 +3,10 @@
 $font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $font-family-serif: "Georgia","Times New Roman",serif;
 
-$cuv-fons: #fff;
+$cuv-dins: rgb(228, 240, 187);
 $cuv-shadow: #001;
 $cuv-corporate: #000078;
 $cuv-masterbrand: #ddc95a;
-$cuv-bg: color.scale($cuv-masterbrand,$lightness: 70%);
-
+$cuv-bg: color.scale($cuv-masterbrand,$lightness: 20%);
+$cuv-fons: color.scale($cuv-dins, $lightness: 20%);
 $mqMinWidth: 420px;
