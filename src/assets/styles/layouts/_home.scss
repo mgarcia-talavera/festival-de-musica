@@ -127,9 +127,9 @@ div.titol {
     align-content: center;
     width: 75%;
     height: 75%;
-    margin-left: 200px;
     margin-bottom: 170px;
-  
+    margin-left: 200px;
+    
     @media (max-width:$mqMinWidth) {
       .grid-item {
         grid-column: 1;
