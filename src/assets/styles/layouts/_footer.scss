@@ -11,8 +11,7 @@
   @media (max-width:$Media) {
     margin-left: 300px;
     font-size: 1rem;
-    text-align: center;
-    
+    text-align: center; 
   }
     
   @media (max-width:$mqMinWidth) {
@@ -22,13 +21,13 @@
   }
 }
 
-.logo {
+#logo {
   width: 25%;
   height: 52%;
   margin-left: 5px;
 
   @media (max-width:$Max) {
-    .logo { 
+    #logo { 
       width: 7%;
       height: 7%;
     } 
@@ -45,7 +44,7 @@
   }
 }
 
-.logos {
+#logos {
   width: 7%;
   height: 7%;
   margin-right: 30px;
@@ -76,8 +75,6 @@ footer, li {
   padding-right: 5px;
   margin-right: 50px;
   list-style-type: none;
-  
-
 }
 
 .i1 {
