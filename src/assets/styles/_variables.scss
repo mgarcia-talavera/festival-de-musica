@@ -1,15 +1,20 @@
 @use "sass:color";
 
+
 $font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial, sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 $font-family-serif: "Georgia","Times New Roman",serif;
 
-$cuv-dins: rgb(228, 240, 187);
-$cuv-shadow: #001;
-$cuv-corporate: #000078;
-$cuv-masterbrand: #ddc95a;
-$cuv-bg: color.scale($cuv-masterbrand,$lightness: 20%);
-$cuv-fons: color.scale($cuv-dins, $lightness: 20%);
+$theme-colors: (
+  "primary": #dba40b,
+  "secondary": #43a8b9,
+);
+
+$background: rgb(154, 234, 240);
+$background2: #dbb959;
+$lletra-blava: #43a8b9;
+$cuv-fons: color.scale($background, $lightness: 50%);
 $mqMinWidth: 420px;
 $Max: 1280px;
 $Media: 912px;
 $Mini: 812px;
+

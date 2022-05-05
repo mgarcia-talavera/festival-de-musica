@@ -1,5 +1,94 @@
-.cuv-footer {
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 1.5rem;
-  font-size: .75rem;
+  font-size: .60rem;
+  color: rgb(0, 0, 0);
   text-align: center;
+
+  @media (max-width:$Media) {
+    margin-left: 300px;
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+    
+  @media (max-width:$mqMinWidth) {
+    margin-right: 300px;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.logo {
+  width: 25%;
+  height: 52%;
+  margin-left: 5px;
+
+  @media (max-width:$Max) {
+    .logo { 
+      width: 7%;
+      height: 7%;
+    } 
+  }
+
+  @media (max-width:$Media) {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width:$mqMinWidth) {
+    width: 80%;
+    height: 80%;    
+  }
+}
+
+.logos {
+  width: 7%;
+  height: 7%;
+  margin-right: 30px;
+
+  @media (max-width:$Max) {
+    width: 25%;
+    height: 25%;
+  }
+
+  @media (max-width:$Media) {
+    width: 25%;
+    height: 25%;
+  }
+
+  @media (max-width:$Mini) {
+    width: 25%;
+    height: 25%;
+  }
+
+  @media (max-width:$mqMinWidth) {
+    width: 25%;
+    height: 25%;   
+  } 
+}
+
+footer, li {
+  display: inline;
+  padding-right: 5px;
+  margin-right: 50px;
+  list-style-type: none;
+  
+
+}
+
+.i1 {
+  order: 1;
+}
+
+.i2 {
+  order: 2;
+  margin-right: 300px;
+}
+
+.i3 {
+  order: 3;
 }

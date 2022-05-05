@@ -1,0 +1,49 @@
+.header li {
+  display: inline;
+  margin-right: 200px;
+  list-style-type: none;
+  
+
+  @media (max-width:$Max) {
+    font-size: 15px;
+  }
+
+  @media (max-width:$Media) {
+    font-size: 15px;
+  }
+
+  @media (max-width:$mqMinWidth) {
+    font-size: 15px;    
+  }
+}
+
+.header ul {
+  padding-left: 500px;  
+
+  @media (max-width:$mqMinWidth) {
+    margin-right: 500px;
+    font-size: 15px;   
+  }
+}
+
+.logocap {
+  width: 20%;
+  height: 20%;
+  margin-left: 10px;
+
+  @media (max-width:$Max) {
+    width: 20%;
+    height: 20%;
+  }
+
+  @media (max-width:$Media) {
+    width: 20%;
+    height: 20%;
+  }
+
+  @media (max-width:$mqMinWidth) {
+    width: 20%;
+    height: 20%;      
+  }
+}
+  

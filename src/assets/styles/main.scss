@@ -11,6 +11,12 @@
 
 /**
  * Import npm dependencies
+ */
+ 
+@import "bootstrap/scss/bootstrap";
+
+  
+/**
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
  */
@@ -31,3 +37,8 @@
  */
 
 @import "layouts/footer";
+
+
+@import "layouts/header";
+
+
