@@ -2,18 +2,23 @@
   display: inline;
   margin-right: 200px;
   list-style-type: none;
-  
 
   @media (max-width:$Max) {
+    margin-right: 10px;
     font-size: 15px;
+    text-align: center;
   }
 
   @media (max-width:$Media) {
+    margin-right: 10px;
     font-size: 15px;
+    text-align: center;
   }
 
   @media (max-width:$mqMinWidth) {
-    font-size: 15px;    
+    margin-right: 10px; 
+    font-size: 15px;
+    text-align: center;
   }
 }
 
@@ -24,6 +29,7 @@
     margin-right: 500px;
     font-size: 15px;   
   }
+
 }
 
 #logocap {
